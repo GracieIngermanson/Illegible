@@ -1,7 +1,7 @@
 {
-  "name": "boilermaker",
-  "version": "2.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "name": "illegible",
+  "version": "1.0.0",
+  "description": "Upload an HTML file with paragraph formatted text and watch your page disintegrate",
   "engines": {
     "node": "~12.11.1"
   },
@@ -41,9 +41,12 @@
   "author": "Fullstack Academy of Code",
   "license": "MIT",
   "dependencies": {
+    "@uppy/core": "^1.15.0",
     "axios": "^0.19.0",
     "compression": "^1.7.3",
     "connect-session-sequelize": "^6.0.0",
+    "d3": "^6.3.1",
+    "es6-promise": "^4.2.8",
     "express": "^4.16.4",
     "express-session": "^1.15.1",
     "history": "^4.9.0",
@@ -61,7 +64,8 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "sequelize": "^5.3.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.2.0",
+    "whatwg-fetch": "^3.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -82,6 +86,7 @@
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "chai": "^4.2.0",
+    "clean-css": "^4.2.3",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "eslint": "^5.16.0",
@@ -94,7 +99,7 @@
     "mocha": "^6.1.4",
     "nodemon": "^1.18.3",
     "npm-merge-driver": "^2.3.5",
-    "prettier": "1.11.1",
+    "prettier": "^2.0.5",
     "react-test-renderer": "^16.4.2",
     "redux-devtools-extension": "^2.13.5",
     "redux-mock-store": "^1.5.3",
