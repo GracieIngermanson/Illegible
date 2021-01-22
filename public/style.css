@@ -3,7 +3,7 @@ body {
   background: rgb(51, 0, 51, 0.2);
 }
 
-h1 {
+.app-name {
   font-family: fantasy;
   font-size: 7em;
   text-align: center;
