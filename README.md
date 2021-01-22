@@ -10,18 +10,17 @@
 
 # Tier One
 
-[X] Set up boilermaker
-[X] Add basic CSS
-[] Create front page with file uploader
-[] Serve up the uploaded (HTML) document
-[] Add D3 scripting with time duration to select one paragraph at a time to display (or highlight?)
-[] Add input for selecting mode
-[] After a user-specified time delay, begin erasing one paragraph at a time at random (or changing font to Comic Sans)
-
-[] Deploy to Heroku
+- [x] Set up boilermaker and Github
+- [x] Add basic CSS
+- [] Create front page with file uploader
+- [] Serve up the uploaded (HTML) document
+- [] Add D3 scripting with time duration to select one paragraph at a time to display (or highlight?)
+- [] Add input for selecting mode
+- [] After a user-specified time delay, begin erasing one paragraph at a time at random (or changing font to Comic Sans)
+- [] Deploy to Heroku
 
 # Tier Two
 
-[] Validations for HTML files
-[] Scramble words inside a paragraph
-[] Allow scrambled paragraph to be returned to normal
+- [] Validations for HTML files
+- [] Scramble words inside a paragraph
+- [] Allow scrambled paragraph to be returned to normal
